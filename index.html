@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="pronoum">
+            <span>Ingresa primera palabra: </span><input id="pronouns" type="text">
+        </div>
+        <div class="adj">
+            <span>Ingresa segunda palabra: </span><input id="adj" type="text">
+        </div>
+        <div class="noun">
+            <span>Ingresa tercera palabra: </span><input id="noun" type="text">
+        </div>
+        <div class="dot">
+            <span>Selecciona dominio: </span><select id="extension" name="dotcom">
+                <option value=".com">.com</option>
+                <option value=".es">.es</option>
+                <option value=".net">.net</option>
+              </select>
+              
+        </div>
+        <div>
+            <button onclick="generarDominio()">Generar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
